@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const mongoURI = "mongodb://ec2-13-232-239-51.ap-south-1.compute.amazonaws.com:27017/";
+const mongoURI = "mongodb://ec2-13-235-132-74.ap-south-1.compute.amazonaws.com:27017/";
 
 const connectToMongo = async () => {
   mongoose.connect(mongoURI, {
